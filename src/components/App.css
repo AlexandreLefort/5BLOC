@@ -1,0 +1,62 @@
+/* Styles go here */
+
+.form-inline .form-control {
+  margin-right: 0.4em;
+}
+
+body{
+    background-color: hsl(211deg 100% 50% / 7%);
+}
+
+h2{
+  text-align: center;
+}
+
+button, input{
+  display: block;
+  margin: auto;
+}
+
+.bg-dark {
+    background-color: #f4f6f8 !important;
+    height: 50px;
+    font-size: 20px;
+}
+
+element.style {
+    color: #000000;
+}
+
+input{
+  margin-bottom:20px;
+}
+
+
+.navba
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #3b3737;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
