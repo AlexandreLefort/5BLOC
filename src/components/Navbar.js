@@ -19,7 +19,7 @@ class Navbar extends Component {
           <div class="topnav">
           <img src= "../assets/images/favicon.png" width="35" height="35" className="d-inline-block align-top" alt="" />
           <a class="page-scroll" href="../Accueil.html">Accueil</a>
-                                <a class="page-scroll" href="#services">Contact</a>
+                               
                                
           
                                </div>
