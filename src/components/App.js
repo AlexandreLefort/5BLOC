@@ -95,12 +95,7 @@ class App extends Component {
     })
   }
 
-  comissionImmo = (id, price) => {
-    this.setState({loading: true})
-    this.state.immodapp.methods.comissionPriceImmoOwner(id).send({ from: this.state.account, value: price}).on('transactionHash', (hash) =>{
-      this.setState({loading: false})
-    })
-  }
+
 
   constructor(props) {
     super(props)

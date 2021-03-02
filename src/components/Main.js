@@ -39,7 +39,7 @@ class Main extends Component {
                   placeholder="Adresse du bien"
                   required />
   
-                   <input class="md-2"
+                   <input
                   id="imageDescription"
                   type="text"
                   ref={(input) => { this.imageDescription = input }}
@@ -47,7 +47,7 @@ class Main extends Component {
                   placeholder="Description du bien"
                   required />
   
-                  <input class="md-2"
+                  <input
                   id="imagePrix"
                   type="number"
                   ref={(input) => { this.imagePrix = input }}
@@ -55,7 +55,7 @@ class Main extends Component {
                   placeholder="Prix du bien"
                   required />
 
-                  <input class="md-2"
+                  <input
                   id="imagePiece"
                   type="number"
                   ref={(input) => { this.imagePiece = input }}
@@ -95,7 +95,7 @@ class Main extends Component {
                                 name={image.id}
                                 onClick={(event) => {
                                   const arrayDescription = image.an_address.toString().split('-');
-                                  const eth = arrayDescription[3].match(/\d+/)[0];                                
+                                  const eth = arrayDescription[2].match(/\d+/)[0];                                
                                   let price = window.web3.utils.toWei(eth,'Ether')
                                   console.log(event.target.name, price)
                                   this.props.buyImmoOwner(event.target.name, price)

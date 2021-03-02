@@ -66,10 +66,3 @@ contract ImmoDApp {
 
 
   }
-
-
-
-
-
-
-}
